@@ -1,29 +1,22 @@
 #include <stdio.h>
 
-int encrypt()
-{
-	// todo moj kod
-}
-
 int main()
 {
-	int i = 0;
+	int x = 0;
 	char s[50];
 	printf("Enter String : ");
 	gets(s);
-	while (s[i] != '\0')
+	while (s[x] != '\0')
 	{
-		if (s[i] == 'a')
+		if (s[x] == 'a')
 		{
-			s[i] = '*';
+			s[x] = '*';
 		}
-		i++;
+		x++;
 	}
 
-	printf("-------------------------------------");
 	printf("\nString After Replacing 'a' by '*'");
 	printf("\n-------------------------------------\n");
 	printf("%s", s);
-	printf("-------------------------------------");
 	return 0;
 }
