@@ -1,10 +1,5 @@
 #include <stdio.h>
 
-int encrypt()
-{
-	// todo moj kod
-}
-
 int main()
 {
 	int i = 0;
