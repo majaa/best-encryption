@@ -1,1 +1,1 @@
-Hello world
+Our small encryption project
