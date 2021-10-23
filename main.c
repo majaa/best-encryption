@@ -16,7 +16,7 @@ int main()
 	}
 
 	printf("-------------------------------------");
-	printf("\nNew string 'a' by '*'");
+	printf("\nString After Replacing 'a' by '*'");
 	printf("\n-------------------------------------\n");
 	printf("%s", s);
 	printf("-------------------------------------");
